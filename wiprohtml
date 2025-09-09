@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Block and Inline Elements Example</title>
+</head>
+<body>
+
+  <!-- Block element -->
+  <div style="background-color: lightblue;">
+    This is a block-level <strong>div</strong> element.
+  </div>
+
+  <!-- Inline elements continue on the same line -->
+  <span>First inline <strong>span</strong>.</span>
+  <span>Second inline <strong>span</strong>.</span>
+
+</body>
+</html>
