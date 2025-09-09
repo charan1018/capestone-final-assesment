@@ -1,0 +1,192 @@
+Codeshare logo
+
+    Sign UpLog In
+
+1
+
+using System; //package/namespace  name -- > imported the built in package
+
+2
+
+​
+
+3
+
+​
+
+4
+
+​
+
+5
+
+​
+
+6
+
+​
+
+7
+
+     class Program
+
+8
+
+    {
+
+9
+
+        //main is the entry point of your program
+
+10
+
+       public static void Main(string[] args)
+
+11
+
+        {
+
+12
+
+​
+
+13
+
+                // int - 4bytes ,
+
+14
+
+                //  long - 8 bytes , 
+
+15
+
+                // float -4 bytes ,
+
+16
+
+                // double - 8 bytes ,
+
+17
+
+                //  bool - 1 byte , 
+
+18
+
+                // char - 2bytes ,
+
+19
+
+                //  string - 2bytes per character
+
+20
+
+​
+
+21
+
+            {
+
+22
+
+                // datatype declaration with initialization 
+
+23
+
+                // variable is a container contains value
+
+24
+
+                int number = 456;
+
+25
+
+                int a ;
+
+26
+
+                int b;
+
+27
+
+                string s = "Hello";
+
+28
+
+                char ch = 'B';
+
+29
+
+                //Int16
+
+30
+
+                short num1 = 234;
+
+31
+
+                //Int32
+
+32
+
+                //Int64 
+
+33
+
+                long num = 5767;
+
+34
+
+​
+
+35
+
+                double price = 45.00;
+
+36
+
+              //  float f = 45.00M;
+
+37
+
+                Decimal marks = 45.7M;
+
+38
+
+​
+
+39
+
+                Console.WriteLine($"Value1 : {number} second number : {num1} ");
+
+40
+
+​
+
+41
+
+                Console.WriteLine("Char : " + ch);
+
+42
+
+​
+
+43
+
+​
+
+44
+
+​
+
+45
+
+                Console.WriteLine("Equivalent Number : " + (byte)ch); // conversion implicit & explicit
+
+46
+
+                Console.WriteLine("The minimum and maximum value size : " + char.MinValue + " " + char.MaxValue);
+
+47
+
+                Console.WriteLine("The char size : " + sizeof(char));
+
